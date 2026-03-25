@@ -1,0 +1,7 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ALLOWED_USERS = os.getenv("ALLOWED_USERS", "").split(",")
+WATCHLIST = ["BBCA.JK", "BBRI.JK", "TLKM.JK", "ASII.JK", "UNVR.JK"]
+RSI_OVERSOLD = 30
+RSI_OVERBOUGHT = 70
